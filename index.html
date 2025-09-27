@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloom Craft</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+      background: white;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background: #222;
+      color: white;
+      padding: 12px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .contact-form button:hover {
+      background: #555;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bloom Craft</h1>
+    <p>Handmade Crafts with Love & Elegance</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Bloom Craft</h2>
+    <p style="text-align:center;">Discover unique handmade crafts designed to bring elegance and warmth to your home.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;">Bloom Craft is a small online shop dedicated to creating timeless, handmade pieces. 
+    Each item is carefully designed with passion and attention to detail.</p>
+  </section>
+
+  <section id="shop">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Craft Item 1">
+        <h3>Craft Item 1</h3>
+        <p>$25</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Craft Item 2">
+        <h3>Craft Item 2</h3>
+        <p>$30</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/300x200" alt="Craft Item 3">
+        <h3>Craft Item 3</h3>
+        <p>$20</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bloom Craft | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
